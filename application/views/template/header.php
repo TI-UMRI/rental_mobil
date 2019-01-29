@@ -89,7 +89,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
                 <p>
                   <?php echo $this->session->userdata("NAME");?> - Web Developer
-                  <small>Member since Nov. 2012</small>
+                  <small>Member since 2015</small>
                 </p>
               </li>
               <!-- Menu Body -->

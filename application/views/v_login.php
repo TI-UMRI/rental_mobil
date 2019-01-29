@@ -27,7 +27,7 @@
                             <h1 class="h3 font-w600 push-30-t push-5" style="color:white">Sistem Informasi Rental Mobil</h4>
                             </center>
                             <br><br><br><br>
-                            <p style="color:white" class="text-center">Welcome, please login.</p>
+                            <p style="color:white" class="text-center">Silahkan login.</p>
 
                             <form class="js-validation-login form-horizontal push-30-t push-50" action="<?php echo site_url("login/login_proses");?>" method="post">
                                 <div class="form-group">
