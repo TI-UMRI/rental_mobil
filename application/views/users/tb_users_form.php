@@ -1,7 +1,7 @@
 
 <div class="content-wrapper">
         <section class="content-header">
-            <h1>Halaman Fasilitas Mobil <small>Detail Data</small></h1>
+            <h1>Halaman User <small>Detail Data</small></h1>
             <ol class="breadcrumb">
                 <li>
                     <a href="#"><i class="fa fa-dashboard"></i> Level</a>
@@ -16,7 +16,7 @@
 
 
                         <div class="box-header with-border">
-                            <h3 class="box-title">Fasilitas Mobil</h3>
+                            <h3 class="box-title">Daftar user</h3>
                         </div>
                         
                         <div class="box-body">
