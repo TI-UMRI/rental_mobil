@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54077422e0ad9589ec24466a5fa6a33b",
+    "content-hash": "b7d9be9f6059d289574c2f62cbb0c13a",
     "packages": [],
     "packages-dev": [
         {
@@ -22,7 +22,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "5.6.4"
+                "php": ">=5.3.0"
             },
             "type": "library",
             "autoload": {
@@ -44,7 +44,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "5.6.4",
+        "php": "5.6.40",
         "ext-mysqli": "*"
     },
     "platform-dev": []
