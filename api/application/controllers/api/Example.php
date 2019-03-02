@@ -35,9 +35,9 @@ class Example extends REST_Controller {
     {
         // Users from a data store e.g. database
         $users = [
-            ['id' => 1, 'name' => 'John', 'email' => 'john@example.com', 'fact' => 'Loves coding'],
-            ['id' => 2, 'name' => 'Jim', 'email' => 'jim@example.com', 'fact' => 'Developed on CodeIgniter'],
-            ['id' => 3, 'name' => 'Jane', 'email' => 'jane@example.com', 'fact' => 'Lives in the USA', ['hobbies' => ['guitar', 'cycling']]],
+            ['id' => 1, 'name' => 'Akhmad', 'email' => 'akhmad@example.com', 'fact' => 'Universitas Muhammadiyah Riau'],
+            ['id' => 2, 'name' => 'Ridwan', 'email' => 'ridwan@example.com', 'fact' => 'Dibuat menggunakan CodeIgniter'],
+            ['id' => 3, 'name' => 'Iwan', 'email' => 'iwan@example.com', 'fact' => 'Tinggal di Pekanbaru', ['hobbies' => ['Nonton', 'Bersepeda']]],
         ];
 
         $id = $this->get('id');
