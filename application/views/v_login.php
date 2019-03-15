@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/bootstrap.min.css") ?>">
 
     </head>
-    <body background="<?php echo base_url();?>assets/img/background.jpg" style="overflow:hidden">
+    <body background="<?php echo base_url();?>assets/img/colorBackground.png" style="overflow:hidden">
         <div class="content overflow-hidden">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
