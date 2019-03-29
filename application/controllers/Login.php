@@ -18,7 +18,7 @@ class login extends CI_Controller
 
 	function login_proses(){
 		$username=$this->input->post("username");
-		$password=($this->input->post("password"));
+		$password=$this->input->post("password");
 		//TODO: Implement md5
 		$user=$this->m_user->login($username,$password);
 		
