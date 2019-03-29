@@ -1,8 +1,5 @@
 <?php  
 
-/**
-* 
-*/
 class m_auth extends CI_Model
 {
 	

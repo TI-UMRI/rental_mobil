@@ -1,8 +1,5 @@
 <?php  
 
-/**
-* 
-*/
 require APPPATH . 'libraries/REST_Controller.php';
 
 class Auth extends REST_Controller
@@ -13,10 +10,10 @@ class Auth extends REST_Controller
 		parent::__construct();
 		
 		#Configure limit request methods
-		$this->methods['index_get']['limit']=100; # 100 requests per hour per user/key
-		$this->methods['index_post']['limit']=100; # 100 requests per hour per user/key
-		$this->methods['index_delete']['limit']=100; # 100 requests per hour per user/key
-		$this->methods['index_put']['limit']=100; # 100 requests per hour per user/key
+		$this->methods['index_get']['limit']=10; # 100 requests per hour per user/key
+		$this->methods['index_post']['limit']=10; # 100 requests per hour per user/key
+		$this->methods['index_delete']['limit']=10; # 100 requests per hour per user/key
+		$this->methods['index_put']['limit']=10; # 100 requests per hour per user/key
 		
 		#Configure load model api table users
 		$this->load->model('m_auth');
@@ -40,7 +37,6 @@ class Auth extends REST_Controller
 		}
 
 	}
-
 
 }
 

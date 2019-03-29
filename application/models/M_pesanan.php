@@ -1,9 +1,5 @@
 <?php  
 
-
-/**
-* 
-*/
 class m_pesanan extends CI_Model
 {
 	
@@ -20,7 +16,6 @@ class m_pesanan extends CI_Model
 		$data=$this->db->join($this->table_user." t_user","t_user.ID_USER=t_tran.ID_USER");
 		$data=$this->db->get($this->table_name." t_tran");
 		return $data->result();
-
 
 	}
 
@@ -52,7 +47,6 @@ class m_pesanan extends CI_Model
 
 		return $data;
 	}
-
 
 	function insert($data,$detail_pesanan){
 

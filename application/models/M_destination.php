@@ -1,9 +1,5 @@
 <?php  
 
-
-/**
-* 
-*/
 class M_Destination extends CI_Model
 {
 	

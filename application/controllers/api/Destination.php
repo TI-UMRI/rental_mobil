@@ -1,11 +1,6 @@
 <?php  
 
-
-/**
-* 
-*/
 require APPPATH . 'libraries/REST_Controller.php';
-
 
 class Destination extends REST_Controller
 {
@@ -23,10 +18,7 @@ class Destination extends REST_Controller
 		#Configure load model api table destination
 		$this->load->model('m_destination');
 
-	
-
 	}
-
 
 	function index_get($id=null){	
 		

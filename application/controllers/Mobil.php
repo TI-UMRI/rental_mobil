@@ -129,7 +129,6 @@ class Mobil extends CI_Controller
                     $data["photo"]=array('IMAGE'=> $nama_photo);
                 }
 
-
             $this->M_mobil_admin->insert($data);
             $this->session->set_flashdata('message', 'Create Record Success');
             redirect(site_url('mobil'));
@@ -168,7 +167,6 @@ class Mobil extends CI_Controller
             foreach ($fasilitas_mobil as $var) {
                 $data['fasilitas_mobil'][$var->ID_FASILITAS]="checked";
             }
-
 
             $this->load->view('template/header');
             $this->load->view('mobil/tb_mobil_form', $data);
@@ -217,7 +215,6 @@ class Mobil extends CI_Controller
             if($this->upload->do_upload('PHOTO')){
                 $data["photo"]=array('IMAGE'=> $nama_photo);
             }
-
 
             $this->M_mobil_admin->update($this->input->post('ID_MOBIL', TRUE), $data);
             $this->session->set_flashdata('message', 'Update Record Success');
@@ -271,7 +268,7 @@ class Mobil extends CI_Controller
     }
 
     public function bensin($key){
-        $bensin = array('','Autometic','Manual');
+        $bensin = array('','Automatic','Manual');
         return $bensin[$key];
     }
 

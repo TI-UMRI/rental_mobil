@@ -1,11 +1,6 @@
 <?php  
 
-
-/**
-* 
-*/
 require APPPATH . 'libraries/REST_Controller.php';
-
 
 class Rating extends REST_Controller
 {
@@ -22,8 +17,6 @@ class Rating extends REST_Controller
 		
 		#Configure load model api table rating
 		$this->load->model('m_rating');
-
-	
 
 	}
 
@@ -225,7 +218,6 @@ class Rating extends REST_Controller
 		else
 			return FALSE;
 	}
-
 
 }
 

@@ -1,8 +1,5 @@
 <?php  
 
-/**
-* 
-*/
 class m_user extends CI_Model
 {
 	function login($username,$password){
@@ -12,6 +9,5 @@ class m_user extends CI_Model
 	}
 
 }
-
 
 ?>

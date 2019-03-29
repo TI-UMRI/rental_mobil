@@ -1,9 +1,5 @@
 <?php  
 
-
-/**
-* 
-*/
 require APPPATH . 'libraries/REST_Controller.php';
 class pesanan extends REST_Controller
 {
@@ -122,8 +118,6 @@ class pesanan extends REST_Controller
 					$detail_pesanan[]=$temp;
 		}
 
-
-		
 		// KODE_TRANSAKSI
 		// $temp=$pesanan_data;
 		// $pesanan_data["BUKTI_PEMBAYARAN"]=$temp;
@@ -149,7 +143,6 @@ class pesanan extends REST_Controller
 
 		}
 
-		
 	}
 
 

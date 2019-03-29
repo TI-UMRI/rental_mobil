@@ -1,9 +1,5 @@
 <?php  
 
-
-/**
-* 
-*/
 class M_Rating extends CI_Model
 {
 	

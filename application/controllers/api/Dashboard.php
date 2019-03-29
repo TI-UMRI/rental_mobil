@@ -1,8 +1,5 @@
 <?php  
 
-/**
-* 
-*/
 require APPPATH . 'libraries/REST_Controller.php';
 class Dashboard extends REST_Controller
 {

@@ -1,9 +1,5 @@
 <?php  
 
-
-/**
-* 
-*/
 require APPPATH . 'libraries/REST_Controller.php';
 
 class User extends REST_Controller
@@ -270,7 +266,6 @@ class User extends REST_Controller
 		$path='./upload/avatars/'.$name;
 		unlink($path);
 	}
-
 
 }
 

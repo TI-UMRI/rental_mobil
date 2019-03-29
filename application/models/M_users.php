@@ -1,9 +1,5 @@
 <?php  
 
-
-/**
-* 
-*/
 class m_users extends CI_Model
 {
 	

@@ -1,8 +1,5 @@
 <?php  
 
-/**
-* 
-*/
 class m_mobil extends CI_Model
 {
 	private $table_name="tb_mobil";

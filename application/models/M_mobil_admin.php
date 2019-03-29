@@ -126,9 +126,6 @@ class M_mobil_admin extends CI_Model
             $data["photo"]["ID_MOBIL"]=$id;
             $this->db->insert($this->table_gallery, $data['photo']);
         }
-        
-    
-
 
     }
 

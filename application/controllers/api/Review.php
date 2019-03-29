@@ -1,11 +1,6 @@
 <?php  
 
-
-/**
-* 
-*/
 require APPPATH . 'libraries/REST_Controller.php';
-
 
 class Review extends REST_Controller
 {
@@ -22,8 +17,6 @@ class Review extends REST_Controller
 		
 		#Configure load model api table review
 		$this->load->model('m_review');
-
-	
 
 	}
 

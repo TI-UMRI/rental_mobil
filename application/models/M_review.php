@@ -1,9 +1,5 @@
 <?php  
 
-
-/**
-* 
-*/
 class M_Review extends CI_Model
 {
 	

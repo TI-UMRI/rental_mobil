@@ -1,9 +1,5 @@
 <?php  
 
-
-/**
-* 
-*/
 require APPPATH . 'libraries/REST_Controller.php';
 
 class Mobil extends REST_Controller
@@ -280,7 +276,6 @@ class Mobil extends REST_Controller
 		$path='./upload/mobil/'.$name;
 		unlink($path);
 	}
-
 
 }
 

@@ -1,9 +1,5 @@
 <?php  
 
-
-/**
-* 
-*/
 class m_fasilitas extends CI_Model
 {
 	private $table_name="tb_fasilitas";

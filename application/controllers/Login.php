@@ -1,8 +1,5 @@
 <?php  
 
-/**
-* 
-*/
 class login extends CI_Controller
 {
 	

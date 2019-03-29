@@ -1,11 +1,6 @@
 <?php  
 
-
-/**
-* 
-*/
 require APPPATH . 'libraries/REST_Controller.php';
-
 
 class Event extends REST_Controller
 {
@@ -22,8 +17,6 @@ class Event extends REST_Controller
 		
 		#Configure load model api table destination
 		$this->load->model('m_event');
-
-	
 
 	}
 
