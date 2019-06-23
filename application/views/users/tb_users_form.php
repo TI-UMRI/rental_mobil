@@ -1,7 +1,7 @@
 
 <div class="content-wrapper">
         <section class="content-header">
-            <h1>Halaman Fasilitas Mobil <small>Detail Data</small></h1>
+            <h1>Halaman Daftar User<small>Detail Data</small></h1>
         </section>
         <section class="content">
             <div class="row">
@@ -10,11 +10,11 @@
 
 
                         <div class="box-header with-border">
-                            <h3 class="box-title">Fasilitas Mobil</h3>
+                            <h3 class="box-title">Daftar User</h3>
                         </div>
-                        
+
                         <div class="box-body">
-                            
+
         <form action="<?php echo $action; ?>" method="post">
 	    <div class="form-group">
             <label for="varchar">USERNAME <?php echo form_error('USERNAME') ?></label>
@@ -68,11 +68,11 @@
             <label for="datetime">LAST UPDATE <?php echo form_error('LAST_UPDATE') ?></label>
             <input type="text" class="form-control" name="LAST_UPDATE" id="LAST_UPDATE" placeholder="LAST UPDATE" value="<?php echo $LAST_UPDATE; ?>" />
         </div>
-	    <input type="hidden" name="ID_USER" value="<?php echo $ID_USER; ?>" /> 
-	    <button type="submit" class="btn btn-primary"><?php echo $button ?></button> 
+	    <input type="hidden" name="ID_USER" value="<?php echo $ID_USER; ?>" />
+	    <button type="submit" class="btn btn-primary"><?php echo $button ?></button>
 	    <a href="<?php echo site_url('users') ?>" class="btn btn-default">Cancel</a>
 	</form>
-                        </div>                        
+                        </div>
                     </div>
                 </div><!--/.col (right) -->
             </div>

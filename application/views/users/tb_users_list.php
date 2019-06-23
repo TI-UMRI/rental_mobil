@@ -1,7 +1,7 @@
 
 <div class="content-wrapper">
         <section class="content-header">
-            <h1>Halaman Fasilitas Mobil <small>form data Fasilitas Mobil</small></h1>
+            <h1>Halaman Daftar User<small>form data user</small></h1>
         </section>
         <section class="content">
             <div class="row">
@@ -10,9 +10,9 @@
 
 
                         <div class="box-header with-border">
-                            <h3 class="box-title">Fasilitas Mobil</h3>
+                            <h3 class="box-title">Daftar User</h3>
                         </div>
-                        
+
                         <div class="box-body">
                             <div class="row">
                                 <div class="col-md-12 text-center">
@@ -22,7 +22,7 @@
                                 </div>
                                 <div class="col-md-12 text-right">
                 <?php echo anchor(site_url('users/create'),'+ Tambah User', 'class="btn btn-primary"'); ?>
-                                </div>                  
+                                </div>
                             </div>
                             <br><br>
         <table class='table table-bordered table-striped' id='mytable'>
@@ -64,12 +64,12 @@
 			<td><?php echo $users->LAST_LOGIN ?></td>
 			<td><?php echo $users->LAST_UPDATE ?></td>
 			<td style="text-align:center" width="200px">
-				<?php 
-				echo anchor(site_url('users/read/'.$users->ID_USER),'Read'); 
-				echo ' | '; 
-				echo anchor(site_url('users/update/'.$users->ID_USER),'Update'); 
-				echo ' | '; 
-				echo anchor(site_url('users/delete/'.$users->ID_USER),'Delete','onclick="javasciprt: return confirm(\'Are You Sure ?\')"'); 
+				<?php
+				echo anchor(site_url('users/read/'.$users->ID_USER),'Read');
+				echo ' | ';
+				echo anchor(site_url('users/update/'.$users->ID_USER),'Update');
+				echo ' | ';
+				echo anchor(site_url('users/delete/'.$users->ID_USER),'Delete','onclick="javasciprt: return confirm(\'Are You Sure ?\')"');
 				?>
 			</td>
 		</tr>
@@ -78,7 +78,7 @@
             ?>
             </tbody>
         </table>
-                        </div>                        
+                        </div>
                     </div>
                 </div><!--/.col (right) -->
             </div>

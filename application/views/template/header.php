@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--
-This is a Kredit Motor template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
 <html>
 <head>
   <meta charset="utf-8">
@@ -53,7 +49,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Logo -->
     <a href="<?php echo base_url();?>" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-mini"><b>S</b>RM</span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>Sistem</b> Rental Mobil</span>
     </a>
