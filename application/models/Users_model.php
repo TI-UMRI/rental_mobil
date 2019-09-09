@@ -21,7 +21,7 @@ class Users_model extends CI_Model
         $this->datatables->from('tb_users');
         //add this line for join
         //$this->datatables->join('table2', 'tb_users.field = table2.field');
-        $this->datatables->add_column('action', anchor(site_url('users/read/$1'),'Read')." | ".anchor(site_url('users/update/$1'),'Update')." | ".anchor(site_url('users/delete/$1'),'Delete','onclick="javasciprt: return confirm(\'Are You Sure ?\')"'), 'ID_USER');
+        $this->datatables->add_column('action', anchor(site_url('users/read/$1'),'Read')." | ".anchor(site_url('users/update/$1'),'Update')." | ".anchor(site_url('users/delete/$1'),'Delete','onclick="javascript: return confirm(\'Are You Sure ?\')"'), 'ID_USER');
         return $this->datatables->generate();
     }
 
